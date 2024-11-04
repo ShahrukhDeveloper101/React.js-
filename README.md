@@ -1,8 +1,3 @@
-# React + Vite
+REACT JS TODO APP
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
-
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Baisc React.js app for adding grocery. This app has bootstrap added. This react app is created using multiple small components with module based css to make code as much as possible to reuse to reduce code in the app and make it fatser. This React app is created using Vite.
