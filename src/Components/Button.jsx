@@ -1,4 +1,3 @@
-// import styles from './TodoApp.module.css'
 function Button({addItem}) {
     return (
       <>

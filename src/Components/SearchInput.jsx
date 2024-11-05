@@ -1,11 +1,8 @@
-import { useState } from "react";
-
 function SearchInput({ inputValue, setInputValue, addItem }) {
     const handleChange = (event) => {
         setInputValue(event.target.value);
     };
 
-    // const [inputValue, setInputValue] = useState('');
 
     const handleKeyDown = (event) => {
         if (event.key === 'Enter') {
@@ -13,8 +10,6 @@ function SearchInput({ inputValue, setInputValue, addItem }) {
             addItem();
         }
     };
-
-
     return (
         <>
             <input
@@ -28,5 +23,4 @@ function SearchInput({ inputValue, setInputValue, addItem }) {
         </>
     );
 }
-
 export default SearchInput;
